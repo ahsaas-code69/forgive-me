@@ -269,7 +269,7 @@ export default function ForgivenessSection({ initialForgiven }: ForgivenessSecti
                 Yay! We're Okay! 💖
               </h2>
               <p className="text-[#C0B4AC] text-sm md:text-base max-w-md mx-auto leading-relaxed">
-                Thank you for being so forgiving and wonderful. I promise to buy you a warm cup of coffee, listen to you, and make this up to you completely. You make everything brighter.
+                Thank you for being so forgiving and wonderful. I promise to fix myself bacha, listen to you, and make this up to you completely. You make everything brighter.
               </p>
             </div>
 

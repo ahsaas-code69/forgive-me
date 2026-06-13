@@ -75,15 +75,15 @@ export default function IntroLetter() {
 
           <div className="space-y-6 text-[#D5C9C0] leading-relaxed font-sans text-sm md:text-base">
             <motion.p variants={itemVariants}>
-              I wanted to write this because sometimes words said in the heat of the moment or in passing don't convey the depth of how I truly feel. I am so incredibly sorry for letting things get off track and for the misunderstanding.
+              I wanted to write this because sometimes words said in fights don't convey the depth of how I truly feel. I am so incredibly sorry for letting things get off track and for the misunderstanding.
             </motion.p>
 
             <motion.p variants={itemVariants}>
-              You mean the world to me, and seeing a distance or a frown between us weighs heavily on my heart. I value what we share more than anything, and I want to make sure I am doing everything I can to set things right.
+              You mean the world to me, and seeing a distance between us weighs heavily on my heart. I value what we share more than anything, and I want to make sure I am doing everything I can to set things right.
             </motion.p>
 
             <motion.p variants={itemVariants}>
-              I put together this small scrapbook of our highlights to remind us of the laughs, the silly inside jokes, and the memories we have built together. I hope it brings a soft smile to your face.
+              I put together this small scrapbook of our highlights to remind us of the laughs, the silly inside jokes, and the memories we have built together. I hope it brings a soft smile to your face. Im really sorry bacha
             </motion.p>
           </div>
 

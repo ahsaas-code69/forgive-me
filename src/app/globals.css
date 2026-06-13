@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0D0C0B; /* Deep warm charcoal/black */
+  --foreground: #F4EAE6; /* Soft warm ivory text */
+}
+
+@theme inline {
+  --color-romantic-cream: #FAF6F0;
+  --color-romantic-slate: #1E293B;
+  --color-romantic-rose: #E09F9F; /* Brighter rose for high contrast */
+  --color-romantic-rose-light: #2A1F1F; /* Dark rose container accent */
+  --color-romantic-rose-medium: #DF9F9F;
+  --color-romantic-crimson: #E58585;
+  --color-romantic-crimson-dark: #C95B5B;
+  --color-romantic-gold: #E5C565;
+  --color-romantic-gold-light: #2E2A1E;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Custom Film Grain Overlay */
+.bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #E6DCD2;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C97A7A;
+}
+
+/* Custom Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
